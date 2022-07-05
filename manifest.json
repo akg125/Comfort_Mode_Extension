@@ -1,0 +1,21 @@
+{
+    "name": "Comfort_Mode",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Light Mode to Dark Mode and Vice Versa",
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Comfort_Mode",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
